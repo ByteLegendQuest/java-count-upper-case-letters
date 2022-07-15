@@ -14,13 +14,13 @@ public class Challenge {
     public static int countUpperCaseLetters(String s) {
         Object[] stringList = s.split("");
 
-        Int i = 0;
+        Integer j = 0;
         for(int i = 0; i < stringList.length ; i++0) {
             if(stringList[i].isUpperCase) {
-                i += 1;
+                j += 1;
             }
         }
 
-        return i;
+        return j;
     }
 }
