@@ -17,8 +17,8 @@ public class Challenge {
         Integer j = 0;
         for(int i = 0; i < stringList.length ; i++0) {
             char c = s.charAt(i);
-            if(c.isUpperCase) {
-                j += 1;
+            if (c >= 'A' && c <= 'Z') {
+                j++;
             }
         }
 
