@@ -14,7 +14,7 @@ public class Challenge {
     public static int countUpperCaseLetters(String s) {
         int a = 0;
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) > 'A' && s.charAt(i) < 'Z'){
+            if (s.charAt(i) >= 'A' && s.charAt(i) <= 'Z'){
                 a++;
             }
         }
