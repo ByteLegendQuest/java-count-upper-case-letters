@@ -16,7 +16,7 @@ public class Challenge {
         int length = s.length() - 1;
         int charIndex = 0;
         while (charIndex <= length) {
-            if (Character.isUpperCase(test.charAt(charIndex))) {
+            if (Character.isUpperCase(s.charAt(charIndex))) {
                 count++;
             }
             charIndex++;
