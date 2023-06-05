@@ -12,16 +12,6 @@ public class Challenge {
      * <p>For example, `countUpperCaseLetters("1A2B3C4d")` returns `3`.
      */
     public static int countUpperCaseLetters(String s) {
-        int count = 0;
-        int length = s.length() - 1;
-        int charIndex = 0;
-        while (charIndex <= length) {
-            if (Character.isUpperCase(s.charAt(charIndex))) {
-                count++;
-            }
-            charIndex++;
-        }
-
-        return count;
+        return 0;
     }
 }
